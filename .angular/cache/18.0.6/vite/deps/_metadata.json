@@ -1,55 +1,55 @@
 {
-  "hash": "3a39b271",
-  "configHash": "fa4d9333",
+  "hash": "3b376281",
+  "configHash": "777d734d",
   "lockfileHash": "b9cb79e6",
-  "browserHash": "b7ae8a63",
+  "browserHash": "434621d0",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "f4d935d2",
+      "fileHash": "85bc3695",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "cd77715c",
+      "fileHash": "0cf38bd4",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "1c48e537",
+      "fileHash": "a06ee510",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "120aff45",
+      "fileHash": "8a4a7584",
       "needsInterop": false
     },
     "@angular/platform-browser/animations/async": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
       "file": "@angular_platform-browser_animations_async.js",
-      "fileHash": "88a6fcd6",
+      "fileHash": "be56cc07",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "5fd4bac5",
+      "fileHash": "875b4337",
       "needsInterop": false
     },
     "ngx-quill": {
       "src": "../../../../../node_modules/ngx-quill/fesm2022/ngx-quill.mjs",
       "file": "ngx-quill.js",
-      "fileHash": "5574b47c",
+      "fileHash": "f34e1b92",
       "needsInterop": false
     },
     "quill": {
       "src": "../../../../../node_modules/quill/quill.js",
       "file": "quill.js",
-      "fileHash": "83bd544a",
+      "fileHash": "c9eabbd1",
       "needsInterop": false
     }
   },
