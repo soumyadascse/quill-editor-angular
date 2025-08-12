@@ -1,0 +1,54 @@
+<!-- <form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div>
+    <label>Full Name</label>
+    <input type="text" formControlName="fullName" placeholder="Enter full name" />
+  </div>
+
+  <div>
+    <label>Age</label>
+    <input type="number" formControlName="age" placeholder="Enter age" />
+  </div>
+
+  <div>
+    <label>Bio</label>
+    <app-quill-editor formControlName="bio"></app-quill-editor>
+  </div>
+
+  <button type="submit" [disabled]="form.invalid">Submit</button>
+</form> -->
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="container mt-4 p-3 border rounded shadow-sm bg-light">
+  <div class="mb-3">
+    <label class="form-label">Full Name</label>
+    <input 
+      type="text" 
+      formControlName="fullName" 
+      placeholder="Enter full name" 
+      class="form-control"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Age</label>
+    <input 
+      type="number" 
+      formControlName="age" 
+      placeholder="Enter age" 
+      class="form-control"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label">Bio</label>
+    <div class="border rounded p-2 bg-white">
+      <app-quill-editor formControlName="bio"></app-quill-editor>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary w-100" [disabled]="form.invalid">
+    Submit
+  </button>
+</form>
+
+
+<pre>{{ form.value | json }}</pre>
