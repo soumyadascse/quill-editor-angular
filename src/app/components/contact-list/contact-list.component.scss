@@ -1,0 +1,26 @@
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+//   animation: fadeIn 0.3s ease-in;
+}
+
+.count-contacts {
+  display: flex;
+  justify-content: center;
+}
+
+.empty-row {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  padding: 16px;
+}
+
+
+
+// @keyframes fadeIn {
+//   from { opacity: 0; }
+//   to { opacity: 1; }
+// }

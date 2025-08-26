@@ -1,0 +1,13 @@
+<button (click)="increase()">Increase</button>
+<p>Count: {{ count() }}</p>
+<p>{{ colors() }}</p>
+<p>{{ area() }}</p>
+
+<input type="number" [(ngModel)]="squarevalue" #inputRef />
+
+<button (click)="focusInput()">Focus Input</button>
+
+<app-child-signal [parentInput]="squarevalue"></app-child-signal>
+
+
+<br><br><app-model></app-model>

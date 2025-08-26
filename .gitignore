@@ -1,3 +1,32 @@
+# Angular build and dependency folders
 /node_modules/
-/lib/
+dist/
+out-tsc/
+tmp/
+lib/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*.local
+
+# Angular specific files
+.angular/
 .bsb.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+
+# Compiled output
